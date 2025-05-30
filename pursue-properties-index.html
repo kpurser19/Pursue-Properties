@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pursue Properties</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #121212;
+      color: #f9f9f9;
+      font-family: 'Poppins', sans-serif;
+    }
+    h1, h2, h3, h4 {
+      font-family: 'Playfair Display', serif;
+    }
+    .gold {
+      color: #bfa980;
+    }
+    .bg-charcoal {
+      background-color: #121212;
+    }
+    .btn-gold {
+      background-color: #bfa980;
+      color: #121212;
+    }
+    .btn-gold:hover {
+      background-color: #a98f70;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+      color: #bfa980;
+    }
+    footer {
+      background-color: #111;
+      padding: 20px 0;
+      text-align: center;
+      color: #e6e6e6;
+    }
+    .hero-overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 80px 20px;
+    }
+    header {
+      background-image: url('https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&auto=format&fit=crop&w=1650&q=80');
+      background-size: cover;
+      background-position: center;
+    }
+    .logo {
+      max-height: 65px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-charcoal">
+    <div class="container-fluid d-flex align-items-center">
+      <img src="https://raw.githubusercontent.com/your-username/your-repo-name/main/logo.png" alt="Pursue Properties Logo" class="logo">
+      <a class="navbar-brand gold fs-3 fw-semibold" href="#">Pursue Properties</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#listings">Listings</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="text-center">
+    <div class="hero-overlay">
+      <div class="container">
+        <h1 class="display-4 fw-bold gold">Find Your Dream Home</h1>
+        <p class="lead">With Pursue Properties</p>
+        <a href="#listings" class="btn btn-gold btn-lg mt-3">View Listings</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="gold">About Us</h2>
+      <p>Pursue Properties was built on one simple idea: that people thrive when they pursue purpose. Real estate is a powerful tool — not just to call a place home, but to pursue stability, potential, peace, and progress. Whether you're buying, selling, or simply exploring, we help you pursue what matters most.</p>
+    </div>
+  </section>
+
+  <section id="listings" class="py-5 bg-dark">
+    <div class="container">
+      <h2 class="gold">Listings</h2>
+      <div class="row">
+        <div class="col-md-12 mb-4">
+          <div class="text-center py-4">
+            <h3 class="gold">Browse My Active Listings</h3>
+            <p class="text-light">Click below to view all current listings on my Fathom Realty search portal.</p>
+            <a href="https://kade-purser.fathomrealty.com/property-search/any/status=active,viewport=40.677303:-111.06533_39.43916:-112.36721" target="_blank" class="btn btn-gold mt-2">View Listings</a>
+          </div>
+          <div class="mt-5">
+            <h4 class="gold">What You'll Find on the Listings Page</h4>
+            <ul class="text-light">
+              <li><strong>Full Property Details:</strong> Including beds, baths, square footage, and features</li>
+              <li><strong>High-Resolution Photos:</strong> Interior, exterior, and neighborhood shots</li>
+              <li><strong>Mortgage Calculator:</strong> Estimate monthly payments directly on the listing page</li>
+              <li><strong>Market Info & Trends:</strong> Get insights into property values and neighborhood trends</li>
+              <li><strong>Nearby Schools & Amenities:</strong> Quickly see what's close by</li>
+              <li><strong>Walkability & Commute Tools:</strong> Plan your lifestyle around your new home</li>
+              <li><strong>Contact & Tour Scheduling:</strong> Message me directly or fill out the included survey to schedule a showing or ask questions</li>
+            </ul>
+            <p class="text-light">Clicking “View Listings” takes you to my official Fathom Realty site with all these tools integrated on every property page.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="py-5">
+    <div class="container">
+      <h2 class="gold">Our Services</h2>
+      <ul>
+        <li>Buying Consultation & Guidance</li>
+        <li>Property Listing & Selling Services</li>
+        <li>Investment Property Advisory</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5 bg-dark">
+    <div class="container">
+      <h2 class="gold">Contact Us</h2>
+      <form action="https://formspree.io/f/mnqedgqz" method="POST">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-gold">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Pursue Properties. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
